@@ -38,3 +38,8 @@ void useAuto::constAuto(auto val)
   std::cout<<"print const auto val : "<<val<<std::endl;
 }
 
+void useAuto::constAuto(int  val)
+{
+  std::cout<<"print const auto val : "<<val<<std::endl;
+}
+
