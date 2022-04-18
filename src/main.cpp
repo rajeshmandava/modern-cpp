@@ -4,7 +4,8 @@
 int main()
 {
   useAuto autoObj;
-  autoObj.notCommitSpecificType();
+  auto v =10;
+  // autoObj.constAuto(v); auto in params doesn't work in C++20 clang compiler in mac.
 }
 
 // $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04

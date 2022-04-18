@@ -32,3 +32,9 @@ void useAuto::notCommitSpecificType()
 
   std::cout<<type_name<decltype(str)>()<<std::endl;
 }
+
+void useAuto::constAuto(auto val)
+{
+  std::cout<<"print const auto val : "<<val<<std::endl;
+}
+
