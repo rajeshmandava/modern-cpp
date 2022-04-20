@@ -50,3 +50,19 @@ public:
   virtual void checkFun() override; //checkFun(int) is overloading function not overriding override keyword detects error
 };
 
+//usage of final
+
+class B1
+{
+  virtual void fun() final;
+};
+
+class B2 final : public B1
+{
+  // virtual void fun(){} // overriding final function form base class
+};
+
+// class B3 : public B2 // inheriting from the class B2 final class
+// {
+
+// };
