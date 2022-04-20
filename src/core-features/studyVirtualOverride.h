@@ -30,3 +30,5 @@ Derived3(){}
   virtual void fooBar() {}
   ~Derived3(){}
 };
+
+// Override : It ensures the function is actually overriding a base class function or else triggers a error
