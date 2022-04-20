@@ -1,11 +1,14 @@
 #include "core-features/useAuto.h"
+#include "core-features/studyVirtualOverride.h"
 #include <iostream>
 
 int main()
 {
-  useAuto autoObj;
-  auto v =10;
-  autoObj.constAuto(v); //auto in params doesn't work in C++20 clang compiler in mac.
+  // Derived1 derived1Obj;
+  Derived2 derived2Obj;
+  derived2Obj.bar();
+  Derived3 derived3Obj;
+  
 }
 
 // $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
