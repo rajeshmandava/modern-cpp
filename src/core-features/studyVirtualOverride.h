@@ -31,4 +31,7 @@ Derived3(){}
   ~Derived3(){}
 };
 
-// Override : It ensures the function is actually overriding a base class function or else triggers a error
+//Notes :
+// 1) override : It ensures the function is actually overriding a base class function or else triggers a error
+// 2) override and final keywords are special identifiers and have meaning only when used in function declaration or definition
+//   They are not reserved keywords and can still be used in program elsewhere as user defined identifiers
