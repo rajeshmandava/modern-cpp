@@ -1,5 +1,6 @@
 #include "uniformInitialization.h"
 #include <iostream>
+#include <span>
 
 void uniformInitialization::builtInTypes()
 {
@@ -44,6 +45,19 @@ void uniformInitialization::arrays()
 
   // int arr4{arr}; A value of type  {int*} cannot be used initialize an empty type of int 
 
+}
+
+void uniformInitialization::dynamicArrays()
+{
+
+  //using std::span() C++20 feature to iterate on a dynamic array
+
+  int* arr = new int[5]{1};
+  for(auto a: std::span(arr,5))
+    std::cout<<a<<" ";
+  std::cout<<std::endl;
+
+  delete arr;
 }
 
 

@@ -11,7 +11,8 @@ int main()
   // Derived3 derived3Obj;
   uniformInitialization obj;
   // obj.builtInTypes();
-  obj.arrays();
+  // obj.arrays();
+  obj.dynamicArrays();
   
   
 }
