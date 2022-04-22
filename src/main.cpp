@@ -10,7 +10,8 @@ int main()
   // derived2Obj.bar();
   // Derived3 derived3Obj;
   uniformInitialization obj;
-  obj.builtInTypes();
+  // obj.builtInTypes();
+  obj.arrays();
   
   
 }
