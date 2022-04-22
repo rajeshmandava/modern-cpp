@@ -1,13 +1,17 @@
 #include "core-features/useAuto.h"
 #include "core-features/studyVirtualOverride.h"
+#include "core-features/uniformInitialization.h"
 #include <iostream>
 
 int main()
 {
   // Derived1 derived1Obj;
-  Derived2 derived2Obj;
-  derived2Obj.bar();
-  Derived3 derived3Obj;
+  // Derived2 derived2Obj;
+  // derived2Obj.bar();
+  // Derived3 derived3Obj;
+  uniformInitialization obj;
+  obj.builtInTypes();
+  
   
 }
 
