@@ -5,6 +5,8 @@ target_sources(core-features
       PUBLIC ${CMAKE_CURRENT_LIST_DIR}/useAuto.h
       ${CMAKE_CURRENT_LIST_DIR}/studyVirtualOverride.h
       ${CMAKE_CURRENT_LIST_DIR}/studyVirtualOverride.cpp
+      ${CMAKE_CURRENT_LIST_DIR}/uniformInitialization.cpp
+      ${CMAKE_CURRENT_LIST_DIR}/uniformInitialization.h
 )
 
 target_include_directories(core-features 
