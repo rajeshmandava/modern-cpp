@@ -57,6 +57,8 @@ void uniformInitialization::dynamicArrays()
     std::cout<<a<<" ";
   std::cout<<std::endl;
 
+  int* arr1[2] = new[] int[2]{1};
+
   delete arr;
 }
 
