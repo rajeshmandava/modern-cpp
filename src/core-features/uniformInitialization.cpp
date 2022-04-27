@@ -1,6 +1,9 @@
 #include "uniformInitialization.h"
 #include <iostream>
 #include <span>
+#include <vector>
+#include <string>
+#include <map>
 
 void uniformInitialization::builtInTypes()
 {
@@ -52,14 +55,36 @@ void uniformInitialization::dynamicArrays()
 
   //using std::span() C++20 feature to iterate on a dynamic array
 
-  int* arr = new int[5]{1};
-  for(auto a: std::span(arr,5))
-    std::cout<<a<<" ";
+  // int* arr = new int[5]{1};
+  // for(auto a: std::span(arr,5))
+  //   std::cout<<a<<" ";
+  // std::cout<<std::endl;
+
+  // int* arr1[2] = new[] int[2]{1};
+
+  // delete arr;
+}
+
+void uniformInitialization::standardContainers()
+{
+  std::vector<int> ivec{1,2,3};
+  std::map<std::string, int> myMap{{"id",1},{"id2",2}};
+
+  for(auto i:ivec)
+    std::cout<<i<<" ";
   std::cout<<std::endl;
 
-  int* arr1[2] = new[] int[2]{1};
+  for(auto &i:myMap)
+    std::cout<<i.first<<" "<<i.second<<std::endl;
+    std::cout<<std::endl;
+}
 
-  delete arr;
+void uniformInitialization::userDefinedTypes()
+{
+  foo obj;
+  foo ob2(1,1.2);
+  obj.print();
+  ob2.print();
 }
 
 
