@@ -12,7 +12,7 @@ int main()
   uniformInitialization obj;
   // obj.builtInTypes();
   // obj.arrays();
-  obj.dynamicArrays();
+  obj.userDefinedTypes();
   
   
 }
