@@ -12,7 +12,8 @@ int main()
   uniformInitialization obj;
   // obj.builtInTypes();
   // obj.arrays();
-  obj.userDefinedTypes();
+  obj.fun({1,2,3}); //using initializer_list for overloading a function
+  obj.fun(5,6,7);
   
   
 }

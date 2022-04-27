@@ -87,7 +87,19 @@ void uniformInitialization::userDefinedTypes()
   ob2.print();
 }
 
+void uniformInitialization::fun(int a, int b, int c)
+{
+  std::cout<<"using regular parameters"<<std::endl;
+  std::cout<<a<<" "<<b<<" "<<c<<std::endl;
+}
 
+void uniformInitialization::fun(std::initializer_list<int> const list)
+{
+  std::cout<<"using initializer_list"<<std::endl;
+  for(auto i:list)
+    std::cout<<i<<" ";
+  std::cout<<std::endl;
+}
 
 
 
