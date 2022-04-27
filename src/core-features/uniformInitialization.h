@@ -8,6 +8,8 @@ public:
   void dynamicArrays();
   void standardContainers();
   void userDefinedPODTypes();
+  void fun(int a,int b, int c);
+  void fun(std::initializer_list<int> const list);
 protected:
 private:
 
