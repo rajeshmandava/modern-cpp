@@ -7,6 +7,8 @@ target_sources(core-features
       ${CMAKE_CURRENT_LIST_DIR}/studyVirtualOverride.cpp
       ${CMAKE_CURRENT_LIST_DIR}/uniformInitialization.cpp
       ${CMAKE_CURRENT_LIST_DIR}/uniformInitialization.h
+      ${CMAKE_CURRENT_LIST_DIR}/rangeBasedFor.cpp
+      ${CMAKE_CURRENT_LIST_DIR}/rangeBasedFor.h
 )
 
 target_include_directories(core-features 
