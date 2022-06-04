@@ -1,1 +1,11 @@
-
+{
+  "files.associations": {
+    "initializer_list": "cpp",
+    "algorithm": "cpp",
+    "map": "cpp",
+    "__locale": "cpp",
+    "*.tcc": "cpp",
+    "numeric": "cpp",
+    "utility": "cpp"
+  }
+}
