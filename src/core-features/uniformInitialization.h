@@ -1,5 +1,6 @@
 #include<iostream>
 #include<initializer_list>
+class foo;
 class uniformInitialization{
 public:
 
@@ -10,11 +11,14 @@ public:
   void standardContainers();
   void userDefinedPODTypes();
   void fun(int a,int b, int c);
+
   void fun(std::initializer_list<int> const list);
 protected:
 private:
-
+int var1;
+std::string str;
 };
+
 
 class foo{
 private:
