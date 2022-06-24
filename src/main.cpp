@@ -4,6 +4,8 @@
 // #include "core-features/rangeBasedFor.h"
 #include "algorithm/sort_stableSort.cpp"
 // #include <iostream>
+#include "core-features/basicDataTypes.cpp"
+#include "core-features/basicDataTypes2.cpp"
 
 int main()
 {
@@ -39,7 +41,9 @@ int main()
     // std::cout<<rate<<" "<<flag<<std::endl;
 
 
-    create_vector();
+    //create_vector();
+    //run();
+    basics2();
 }
 
 // $ docker run -it devcafe/cmake-cookbook_ubuntu-18.04
